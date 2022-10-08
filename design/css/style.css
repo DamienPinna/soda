@@ -36,7 +36,6 @@ ul {
 }
 
 .container {
-  background-color: red;
   width: 750px;
   aspect-ratio: 1;
   border-radius: 60px;
@@ -53,7 +52,7 @@ ul {
 }
 .container .img-zero-sugar {
   position: absolute;
-  width: 215px;
+  width: 28.6%;
   transform: translateY(-35px);
 }
 .container .description {
@@ -73,15 +72,25 @@ ul {
   font-weight: 300;
 }
 .container .vector {
-  width: 350px;
   position: absolute;
-  right: -108px;
-  bottom: -13px;
+  width: 350px;
+  right: -80px;
+  bottom: 55px;
   border-top: 80px solid red;
-  border-bottom: 80px solid transparent;
   border-left: 80px solid transparent;
   border-right: 80px solid transparent;
   transform: rotate(-45deg);
+}
+.container .vector .next {
+  position: absolute;
+  right: 69px;
+  bottom: 24px;
+  transform: rotate(45deg);
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 3px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */

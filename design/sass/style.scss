@@ -3,7 +3,6 @@
 @import "_mixin.scss";
 
 .container {
-  background-color: red;
   width: 750px;
   aspect-ratio: 1;
   border-radius: 60px;
@@ -21,7 +20,7 @@
 
   .img-zero-sugar {
     position: absolute;
-    width: 215px;
+    width: 28.6%;
     transform: translateY(-35px);
   }
 
@@ -44,24 +43,25 @@
   }
 
   .vector {
-    width: 350px;
     position: absolute;
-    right: -108px;
-    bottom: -13px;
-
-    // background: linear-gradient(
-    //   233.09deg,
-    //   #af0c12 10.3%,
-    //   #af0c12 22.07%,
-    //   #f40009 47.2%,
-    //   #af0c12 73.03%,
-    //   #af0c12 85.57%
-    // );
-
+    width: 350px;
+    right: -80px;
+    bottom: 55px;
     border-top: 80px solid red;
-    border-bottom: 80px solid transparent;
     border-left: 80px solid transparent;
     border-right: 80px solid transparent;
     transform: rotate(-45deg);
+
+    .next {
+      position: absolute;
+      right: 69px;
+      bottom: 24px;
+      transform: rotate(45deg);
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: white;
+      letter-spacing: 3px;
+      cursor: pointer;
+    }
   }
 }
