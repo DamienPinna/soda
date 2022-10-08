@@ -1,0 +1,18 @@
+// Ajout d'une icone dans un pseudo-élément before
+@mixin icone($url, $dimension, $margin, $translateY) {
+  content: "";
+  display: inline-block;
+  background-image: url($url);
+  background-size: $dimension $dimension;
+  height: $dimension;
+  width: $dimension;
+  margin: 0 $margin;
+  transform: translateY($translateY);
+}
+
+//MIXIN BREACKPOINT
+@mixin breackpoint($breackpoint) {
+  @media screen and (max-width: $breackpoint) {
+    @content;
+  }
+}

@@ -1,1 +1,67 @@
 @import "_config.scss";
+@import "_font.scss";
+@import "_mixin.scss";
+
+.container {
+  background-color: red;
+  width: 750px;
+  aspect-ratio: 1;
+  border-radius: 60px;
+  background: linear-gradient(64.5deg, #292929 2.1%, #1c1c1c 100.55%);
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .img-logo-cocacola {
+    width: 160%;
+    transform: translateY(-65px);
+  }
+
+  .img-zero-sugar {
+    position: absolute;
+    width: 215px;
+    transform: translateY(-35px);
+  }
+
+  .description {
+    position: absolute;
+    color: white;
+    left: 5.2rem;
+    bottom: 6.4rem;
+    width: 200px;
+
+    h1 {
+      font-size: 3.2rem;
+      font-weight: 400;
+      margin-bottom: 3.5rem;
+    }
+    p {
+      font-size: 1.8rem;
+      font-weight: 300;
+    }
+  }
+
+  .vector {
+    width: 350px;
+    position: absolute;
+    right: -108px;
+    bottom: -13px;
+
+    // background: linear-gradient(
+    //   233.09deg,
+    //   #af0c12 10.3%,
+    //   #af0c12 22.07%,
+    //   #f40009 47.2%,
+    //   #af0c12 73.03%,
+    //   #af0c12 85.57%
+    // );
+
+    border-top: 80px solid red;
+    border-bottom: 80px solid transparent;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    transform: rotate(-45deg);
+  }
+}

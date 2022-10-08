@@ -1,0 +1,11 @@
+@mixin googleFonts($font) {
+  @import url("https://fonts.googleapis.com/css2?family=#{$font}&display=swap");
+}
+
+$fontsList: "Roboto:wght@100;300;400;500;700";
+
+@each $font in $fontsList {
+  @include googleFonts($font);
+}
+
+// font-family: 'Roboto', sans-serif;
