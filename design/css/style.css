@@ -65,6 +65,7 @@ ul {
   justify-content: center;
   align-items: center;
   position: relative;
+  margin: 0 200px;
 }
 .container.bg-zero-sugar {
   background: linear-gradient(64.5deg, #292929 2.1%, #1c1c1c 100.55%);
