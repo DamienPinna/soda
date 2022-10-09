@@ -36,6 +36,16 @@ ul {
 }
 
 /* ANIMATIONS */
+@keyframes fadeInTop {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
 @keyframes fadeInRight {
   from {
     transform: translateX(300px);
@@ -81,12 +91,19 @@ ul {
   bottom: 6.4rem;
   width: 200px;
 }
-.container .description h1 {
-  font-size: 3.2rem;
+.container .description .item-description {
+  display: none;
+}
+.container .description .item-description.active {
+  display: block;
+  animation: fadeInTop 500ms ease-in-out;
+}
+.container .description .item-description h1 {
+  font-size: 3.1rem;
   font-weight: 400;
   margin-bottom: 3.5rem;
 }
-.container .description p {
+.container .description .item-description p {
   font-size: 1.8rem;
   font-weight: 300;
 }

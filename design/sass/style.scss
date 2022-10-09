@@ -42,14 +42,24 @@
     bottom: 6.4rem;
     width: 200px;
 
-    h1 {
-      font-size: 3.2rem;
-      font-weight: 400;
-      margin-bottom: 3.5rem;
-    }
-    p {
-      font-size: 1.8rem;
-      font-weight: 300;
+    .item-description {
+      display: none;
+
+      &.active {
+        display: block;
+        animation: fadeInTop 500ms ease-in-out;
+      }
+
+      h1 {
+        font-size: 3.1rem;
+        font-weight: 400;
+        margin-bottom: 3.5rem;
+      }
+
+      p {
+        font-size: 1.8rem;
+        font-weight: 300;
+      }
     }
   }
 

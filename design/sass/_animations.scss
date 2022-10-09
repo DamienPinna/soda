@@ -1,5 +1,16 @@
 /* ANIMATIONS */
 
+@keyframes fadeInTop {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
 @keyframes fadeInRight {
   from {
     transform: translateX(300px);
