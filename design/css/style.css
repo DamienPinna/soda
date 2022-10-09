@@ -118,6 +118,15 @@ ul {
   font-size: 1.8rem;
   font-weight: 300;
 }
+.container .description .black {
+  color: #1f1f1f;
+}
+.container .description .black h1 {
+  font-weight: 500;
+}
+.container .description .black p {
+  font-weight: 400;
+}
 .container .vector {
   position: absolute;
   width: 350px;
