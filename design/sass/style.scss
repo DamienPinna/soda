@@ -1,6 +1,7 @@
 @import "_config.scss";
 @import "_font.scss";
 @import "_mixin.scss";
+@import "_animations";
 
 .container {
   width: 750px;
@@ -29,6 +30,7 @@
 
       &.active {
         display: block;
+        animation: fadeInRight 500ms ease-in-out;
       }
     }
   }
@@ -71,6 +73,7 @@
       color: white;
       letter-spacing: 3px;
       cursor: pointer;
+      user-select: none;
     }
   }
 }

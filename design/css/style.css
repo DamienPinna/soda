@@ -35,6 +35,17 @@ ul {
   list-style-type: none;
 }
 
+/* ANIMATIONS */
+@keyframes fadeInRight {
+  from {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
 .container {
   width: 750px;
   aspect-ratio: 1;
@@ -61,6 +72,7 @@ ul {
 }
 .container .slider-img-canettes img.active {
   display: block;
+  animation: fadeInRight 500ms ease-in-out;
 }
 .container .description {
   position: absolute;
@@ -98,6 +110,7 @@ ul {
   color: white;
   letter-spacing: 3px;
   cursor: pointer;
+  user-select: none;
 }
 
 /*# sourceMappingURL=style.css.map */

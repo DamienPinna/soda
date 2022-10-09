@@ -1,0 +1,12 @@
+/* ANIMATIONS */
+
+@keyframes fadeInRight {
+  from {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
