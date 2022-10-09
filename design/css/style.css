@@ -50,10 +50,17 @@ ul {
   width: 160%;
   transform: translateY(-65px);
 }
-.container .img-zero-sugar {
+.container .slider-img-canettes {
   position: absolute;
   width: 28.6%;
   transform: translateY(-35px);
+}
+.container .slider-img-canettes img {
+  width: 100%;
+  display: none;
+}
+.container .slider-img-canettes img.active {
+  display: block;
 }
 .container .description {
   position: absolute;

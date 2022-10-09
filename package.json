@@ -1,8 +1,8 @@
 {
   "name": "coka",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Site promo de cocacola",
+  "main": "script.js",
   "scripts": {
     "sass": "sass --watch ./design/sass/:./design/css/ --style expanded",
     "prefix": "postcss ./design/css/style.css --use autoprefixer -d ./design/css/prefixed/",

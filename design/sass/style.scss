@@ -18,10 +18,19 @@
     transform: translateY(-65px);
   }
 
-  .img-zero-sugar {
+  .slider-img-canettes {
     position: absolute;
     width: 28.6%;
     transform: translateY(-35px);
+
+    img {
+      width: 100%;
+      display: none;
+
+      &.active {
+        display: block;
+      }
+    }
   }
 
   .description {
